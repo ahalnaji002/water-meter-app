@@ -1,0 +1,14 @@
+{
+  "name": "water-meter-app",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "web": "npm run dev -w @water-meter/web",
+    "web:build": "npm run build -w @water-meter/web",
+    "mobile": "npm run start -w @water-meter/mobile",
+    "mobile:android": "npm run android -w @water-meter/mobile",
+    "mobile:ios": "npm run ios -w @water-meter/mobile",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  }
+}

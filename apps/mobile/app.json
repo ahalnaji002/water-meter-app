@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "حاسبة توزيع المياه",
+    "slug": "water-meter-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": { "package": "com.watermeter.calculator" },
+    "ios": { "bundleIdentifier": "com.watermeter.calculator", "supportsTablet": true }
+  }
+}

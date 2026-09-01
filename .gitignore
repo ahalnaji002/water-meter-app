@@ -1,0 +1,33 @@
+node_modules/
+
+dist/
+
+.expo/
+
+.DS_Store
+
+*.log
+
+# IDE
+.idea/
+**/.idea/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Android build/cache
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+
+# Android signing keys
+*.keystore
+*.jks
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Local files
+*.xlsx
